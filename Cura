@@ -1,0 +1,14 @@
+package theSamsara;
+
+public class Cura extends Item{
+	protected int cura;
+
+	public Cura(String nome, int cura) {
+		super(nome);
+		this.cura = cura;
+	}
+
+	public int getCura() {
+		return cura;
+	}
+}
