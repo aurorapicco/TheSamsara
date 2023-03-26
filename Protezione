@@ -1,0 +1,14 @@
+package theSamsara;
+
+public class Protezione extends Item{
+	protected int protezione;
+
+	public Protezione(String nome, int protezione) {
+		super(nome);
+		this.protezione = protezione;
+	}
+
+	public int getProtezione() {
+		return protezione;
+	}
+}
