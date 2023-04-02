@@ -1,24 +1,24 @@
 package theSamsara;
 
 public class Protagonista extends Personaggio {
-    protected Object[] inventario;
+    protected Item[] inventario;
     protected Arma spada;
     protected Colpo[] colpi;
     protected int ic; //indice colpi
 
     public Protagonista(String nome, int saluteMax) {
         super(nome, saluteMax);
-        this.inventario = new Object[10]; // Inizializza l'inventario con 10 slot
+        this.inventario = new Item[10]; // Inizializza l'inventario con 10 slot
         this.spada = null;
         this.colpi = null;
         this.ic = 0;
     }
 
-    public Object[] getInventario() {
+    public Item[] getInventario() {
         return inventario;
     }
     
-    public void aggiungiInventario(Object o) { //aggiunge l'oggetto nel primo scompartimento vuoto che trova
+    public void aggiungiInventario(Item o) { //aggiunge l'oggetto nel primo scompartimento vuoto che trova
     	for(int i = 0; i < inventario.length; i++)
     	{
     		if(inventario[i] == null)
