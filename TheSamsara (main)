@@ -1,0 +1,95 @@
+package theSamsara;
+
+public class theSamsara {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		String titolo = "___ _  _ ____    ____ ____ _  _ ____ ____ ____ ____\n |  |__| |___    [__  |__| |\\/| [__  |__| |__/ |__| \n |  |  | |___    ___] |  | |  | ___] |  | |  \\ |  | \n                                                    ";
+		System.out.println(titolo);
+		Thread.sleep(3000);
+		System.out.print("\nLoading");
+		System.out.print(".");
+		Thread.sleep(1000);
+		System.out.print(".");
+		Thread.sleep(1000);
+		System.out.print(".");
+		Thread.sleep(1000);
+		clearConsole();
+		
+	}
+	
+	public static void clearConsole()
+	{
+		for(int i = 0; i < 50; i++)
+			System.out.println("\n");
+	}
+	
+	public static void allenamentoSwain(Protagonista p)
+	{
+		
+	}
+	
+	public static void shop()
+	{
+		
+	}
+	
+	public static void allenamentoAthena(Protagonista p)
+	{
+		
+	}
+	
+	public static void combattimento(Protagonista p, Nemico n)
+	{
+		int turno = 0;
+		
+		while(p.isVivo() == false && n.isVivo() == false)
+		{
+			if(p.colpi[1] != null)
+				System.out.println("Cosa vuoi fare? [E] Stoccata, [Q] Doppio colpo, [Z] Cura");
+			else
+				System.out.println("Cosa vuoi fare? [E] Stoccata, [Z] Cura");
+			
+			boolean error = false;
+			char scelta;
+			do
+			{
+				error = false;
+				scelta = Leggi.unChar();
+				if(p.colpi[1].getTurno() % turno != 0 || p.getNumCure() <= 0)
+				{
+					System.out.println("Errore! Controlla il turno oppure quante cure possiedi...");
+					error = true;
+				}
+			}
+			while(error == true);
+				
+			if(scelta == 'E' || scelta == 'Q')
+			{
+				int ris;
+				
+				if(scelta == 'E')
+					ris = 0;
+				else
+					ris = 1;
+				
+				n.prendiDanno((p.getSpada().getDanno() * p.colpi[ris].getDmgBonus()));
+			}
+			else
+			{
+				for(int i = 0; i < p.getInventario().length; i++)
+				{
+					if(p.getInventario()[i] instanceof Cura)
+					{
+						p.cura(((Cura)p.getInventario()[i]).getCura());
+						p.rimuoviInventario(i);
+					}
+				}
+			}
+			
+			p.prendiDanno(n.getDanno());
+			
+			turno++;
+		}
+	}
+}
