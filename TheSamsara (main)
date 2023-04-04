@@ -3,7 +3,7 @@ package theSamsara;
 public class theSamsara {
 
 	public static void main(String[] args) throws InterruptedException {
-		
+		/*
 		String titolo = "___ _  _ ____    ____ ____ _  _ ____ ____ ____ ____\n |  |__| |___    [__  |__| |\\/| [__  |__| |__/ |__| \n |  |  | |___    ___] |  | |  | ___] |  | |  \\ |  | \n                                                    ";
 		System.out.println(titolo);
 		Thread.sleep(3000);
@@ -15,7 +15,19 @@ public class theSamsara {
 		System.out.print(".");
 		Thread.sleep(1000);
 		clearConsole();
+		*/
+		System.out.println("Inserisci il tuo nome: ");
+		String nomePro = Leggi.unoString();
+		Protagonista pro = new Protagonista(nomePro, 50);
 		
+		/*
+		Nemico nemico = new Nemico("Gigante", 40, 10);
+		Colpo stoccata = new Colpo("Stoccata", 1, 1, 'E');
+		Arma spadadiLegno = new Arma(2, true);
+		pro.aggiungiColpo(stoccata);
+		pro.setSpada(spadadiLegno);
+		combattimento(pro, nemico);
+		*/
 	}
 	
 	public static void clearConsole()
@@ -43,22 +55,38 @@ public class theSamsara {
 	{
 		int turno = 0;
 		
-		while(p.isVivo() == false && n.isVivo() == false)
+		while(p.isVivo() == true && n.isVivo() == true)
 		{
 			if(p.colpi[1] != null)
 				System.out.println("Cosa vuoi fare? [E] Stoccata, [Q] Doppio colpo, [Z] Cura");
 			else
 				System.out.println("Cosa vuoi fare? [E] Stoccata, [Z] Cura");
 			
-			boolean error = false;
+			boolean error;
 			char scelta;
+			
+			if(p.colpi[1] != null)
+			{
+				do
+				{
+					error = false;
+					scelta = Leggi.unChar();
+					if(p.colpi[1].getTurno() % turno != 0)
+					{
+						System.out.println("Errore! Controlla il turno...");
+						error = true;
+					}
+				}
+				while(error == true);
+			}
+			
 			do
 			{
 				error = false;
 				scelta = Leggi.unChar();
-				if(p.colpi[1].getTurno() % turno != 0 || p.getNumCure() <= 0)
+				if(scelta == 'Z' && p.getNumCure() <= 0)
 				{
-					System.out.println("Errore! Controlla il turno oppure quante cure possiedi...");
+					System.out.println("Errore! Controlla quante cure possiedi...");
 					error = true;
 				}
 			}
