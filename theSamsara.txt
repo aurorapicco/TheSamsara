@@ -1,0 +1,150 @@
+Il portale si richiude dietro di me.
+"Sono a casa?"
+"No, questo posto non è casa mia."
+"Devo tornare a casa, dai miei fratelli."
+/
+Un fulmine squarcia il cielo che fino a pochi attimi prima era sereno.
+La luce si fa sempre più vicina a me.
+E dopo una scarica sul corpo, buio totale.
+/
+Apro piano gli occhi.
+???: "Finalmente ti sei svegliato!"
+"Dove sono? Chi sei tu?"
+Ilde: "Mi chiamo Ilde, sono una contadina, ti ho trovato a terra svenuto e ho deciso di portarti a casa mia."
+"Ti ringrazio, Ilde."
+Ilde: "Non sei di queste parti, vero? Qua tutti conoscono tutti, e la tua faccia non credo di averla mai vista nei miei centosessant'anni di vita."
+*Cavolo! Li porta bene :O -B*
+"No, mi sono ritrovato qui per errore. Sapresti dirmi dove mi trovo?"
+Ilde: "Benvenuto nel Regno di Cubvlar, dove il tempo è duraturo."
+"Cosa vuol dire?"
+Ilde mi ignora, sembra che non abbia sentito.
+Ilde: "Dovresti raggiungere la città, però non è molto vicina e la strada è piena di pericoli."
+Ilde: "Oh! Dovrebbe essere arrivato!"
+"Chi?"
+Sta per dire qualcosa di ironico, ma si ferma in tempo.
+*Ci è mancato poco -A*
+Ilde: "Mio marito, l'emerito cavaliere Lord Swain. Ti insegnerà qualche tecnica di combattimento."
+/
+Esco dalla casa e incontro un vecchietto.
+"Buongiorno, lei è Lord Swain?"
+Swain: "Sono io, vieni caro, ti insegnerò un trucchetto per sopravvivvere qui."
+/
+//inizio allenamento
+/
+Swain: "Ora sei pronto. Segui il sentiero, ti porterà in città, buon viaggio. Che i Tre ti proteggano!"
+/
+Trovo un deviazione, a sinistra c'è un cartello con disegnato un lago, a destra un altro con disegnato la città.
+"Dove vado?"
+/
+C'è un lago abbastanza grande, con qualche barchetta.
+*Perché perdi tempo? Segui la strada -G*
+"Cosa sono queste voci che commentano?"
+*Stai zitto e vai in città -B*
+*Il prof ci mette 2 se tu stai a perdere tempo -A*
+Torno indietro.
+/
+Proseguo verso la strada principale.
+Arrivo a un villaggio molto rustico.
+/
+Un prete mi sta fissando, che inquietante.
+???: "Salve straniero, dove sei diretto?"
+"Alla città."
+Padre Viscur: "Io sono Padre Viscur, lieto di conoscerti."
+"Piacere mio, la città è da quella parte?"
+Padre Viscur: "Esattamente."
+"Allora ti ringrazio, arrivederci."
+Padre Viscur: "Aspetta! La strada è molto pericolosa, voglio farti un regalo."
+Mi porge 5 pozioni curative.
+Padre Viscur: "Queste le produco personalmente. Ti cureranno di 10 punti vita."
+"Allora grazie e arrivederci"
+*Non ti hanno insegnato che non si accettano regali dagli sconosciuti? -G*
+Padre Viscur: "Buon viaggio, a presto."
+/
+Mi incammino fuori dal villaggio.
+Il suolo inizia a tremare.
+Che succede? C'è un terremoto?
+Un gruppo di giganti, alti circa 5 metri, mi passa davanti sparendo nella foresta.
+Erano parecchio di fretta.
+Una donna urla alle mie spalle: "Aiuto! I nemici! I giganti ci distruggeranno!"
+Sono loro che devo sconfiggere, i miei nemici.
+/
+Arrivo alle mura della città.
+Un grosso castello si innalza al centro della capitale.
+/
+Un mercante mi approccia.
+Controllo l'inventario e noto che posseggo trenta monete, anche chiamate cubloni da queste parti.
+/
+Mentre mi avvicino al centro abiatato udisco dei rulli di tamburi e urla di gente.
+Si sta tenendo una parata in cui sfilano i cavalieri tornati da una battaglia contro i giganti.
+La battaglia è stata distruttiva e i soldati sono a pezzi.
+A testa della parata c'è il comandante, una ragazza, molto intimidatoria.
+La folla acclama l'Ordine dei Cavalieri: "Grandi! Siete la nostra salvezza! Athena sei un'eroina!"
+Ah ecco, il comandante si chiama Athena.
+Cerco di raggiungerla, lei mi può aiutare essendo un pezzo grosso.
+"Athena, Athena!"
+Lei mi nota, ma decide di ignorarmi e proseguire per la strada principale, fino alla torre centrale.
+Schivo la gente e la inseguo fino all'entrata.
+"Athena posso parlare con te? Riguarda il mio viaggio, il perché sono qui. Per favore concedimi un minuto"
+Athena: "D'accordo, ma non un secondo di più."
+Le racconto tutta la mia storia, dal portale, al fulmine, ai giganti.
+Athena: "Capisco. Benvenuto a Cubvlar, la terra dove il tempo è in mano ai Tre."
+"Chi sono i Tre?"
+Athena: "Sono la coscienza del nostro mondo, praticamente i nostri dei. I loro nomi sono Boss (B), Alex (A) e Golo (G)."
+"Credo di aver sentito le loro voci parlare qualche volta."
+Athena: "Amano commentare, non sono molto simpatici."
+*Occhio a quello che dici -A*
+Athena: "Appunto."
+"E i giganti? Cosa sono?"
+Athena: "Sono i nostri nemici, sono guidati dal loro re, Emmett il Gigacoso, e il loro scopo è conquistare questa terra."
+"Quindi se vi aiuto a sconfiggerli potrò tornare a casa?"
+Athena: "Sempre che i Tre te lo permettano, ovviamente. Però prima devi allenarti, i giganti sono piuttosto impegnativi. Vieni con me."
+/
+//addestramento con Athena
+/
+Appena finito l'allenamento, la terra inizia a tremare.
+Molta gente urla.
+I giganti sono entrati in città.
+Athena: "Su andiamo!"
+Appena li raggiungiamo noto 5 giganti davanti a noi.
+Athena: "Io mi occupo di quei 3, tu pensa ai restanti 2!"
+"Sissignora!"
+/
+//combattimento
+//
+Athena: "Bravo, te la sei cavata, ma non è finita, guarda laggiù!"
+La terra trema più forte di prima.
+La porta d'ingresso della città viene distrutta dall'entrata di un gigante alto circa 20 metri con una grossa corona in testa.
+Athena: "Lui è Emmett il Gigacoso, il loro re."
+"Quello lì ci schiaccia! Morirò!"
+*Sei il protagonista, non puoi morire... -B*
+Athena: "Ci penso io!"
+/
+Athena infligge 26 danni a Emmett e poi cade a terra per colpa di una ferita allo stomaco.
+"Ora tocca a me!"
+/
+//combattimento contro il boss
+/
+//Ho fallito. Non tornerò mai più a casa.
+/
+Ce l'ho fatta.
+L'ho sconfitto!
+"Athena hai visto? C'è l'ho fatta!"
+Athena: "Complimenti ragazzo, ci hai salvato."
+La gente mi acclama, mi chiama eroe, mi lancia fiori e cibo.
+All'improvviso dal cielo cade un rubino rosso come il fuoco.
+*Questo è un piccolo regalo da parte nostra -G*
+*Aprirà un portale magico -A*
+*Buon ritorno a casa -B*
+"E' ora di tornare, grazie a tutti."
+/
+Entro nel portale.
+/
+Il portale si richiude dietro di me.
+"Sono a casa?"
+"No, questo posto non è casa mia."
+"Devo tornare a casa, dai miei fratelli."
+/
+Un fulmine squarcia il cielo che fino a pochi attimi prima era sereno.
+La luce si fa sempre più vicina a me.
+E dopo una scarica sul corpo, buio totale.
+*Il tempo è nelle mani dei Tre*
