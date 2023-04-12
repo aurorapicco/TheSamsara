@@ -18,12 +18,12 @@ public class theSamsara {
 		*/
 		System.out.println("Inserisci il tuo nome: ");
 		String nomePro = Leggi.unoString();
-		Protagonista pro = new Protagonista(nomePro, 50);
+		Protagonista pro = new Protagonista(nomePro, 69);
 		
 		/*
 		Nemico nemico = new Nemico("Gigante", 40, 10);
 		Colpo stoccata = new Colpo("Stoccata", 1, 1, 'E');
-		Arma spadadiLegno = new Arma(2, true);
+		Arma spadadiLegno = new Arma(spadadiLegno, 2, true);
 		pro.aggiungiColpo(stoccata);
 		pro.setSpada(spadadiLegno);
 		combattimento(pro, nemico);
@@ -43,8 +43,37 @@ public class theSamsara {
 	
 	public static void shop()
 	{
+		int numCubloni = 30;
+		Arma spadaDiFerro = new Arma("Spada di Ferro", 10, false);
+		Cura pozione = new Cura("Pozione Curativa", 10);
+		Item bambolaDiPezza = new Inutile("Bambola di Pezza");
+		Protezione elmetto = new Protezione("Elmetto in Ferro", 5);
 		
-	}
+		while(1>0)
+		{
+			System.out.println("Benvenuto nel mio shop, ecco cosa propongo oggi:");
+			System.out.println("1) " + spadaDiFerro.getNome() + " - 10 cubloni");
+			System.out.println("2) " + pozione.getNome() + " - 3 cubloni");
+			System.out.println("3) " + bambolaDiPezza.getNome() + " - 8 cubloni");
+			System.out.println("4) " + elmetto.getNome() + " - 9 cubloni");
+			
+			System.out.println("\nCubloni disponibili: " + numCubloni + "\nCosa vorresti comprare? (Inserisci il numero)");
+			int ris;
+			do
+			{
+				ris = Leggi.unInt();
+			}
+			while(ris < 0 || ris > 4);
+			
+			System.out.println("Basta così? [Y] Yes, [N] No");
+			int r;
+			do
+			{
+				r = Leggi.unChar();
+			}
+			while(r != 'Y' || r != 'y' || r != 'N' || r != 'n');
+		}
+ 	}
 	
 	public static void allenamentoAthena(Protagonista p)
 	{
