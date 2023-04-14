@@ -15,7 +15,7 @@ Ilde: "Mi chiamo Ilde, sono una contadina, ti ho trovato a terra svenuto e ho de
 Ilde: "Non sei di queste parti, vero? Qua tutti conoscono tutti, e la tua faccia non credo di averla mai vista nei miei centosessant'anni di vita."
 *Cavolo! Li porta bene :O -B*
 "No, mi sono ritrovato qui per errore. Sapresti dirmi dove mi trovo?"
-Ilde: "Benvenuto nel Regno di Cubvlar, dove il tempo è duraturo."
+Ilde: "Benvenuto nel Regno di Mirvlar, dove il tempo è duraturo."
 "Cosa vuol dire?"
 Ilde mi ignora, sembra che non abbia sentito.
 Ilde: "Dovresti raggiungere la città, però non è molto vicina e la strada è piena di pericoli."
