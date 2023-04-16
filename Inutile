@@ -1,0 +1,10 @@
+package theSamsara;
+
+public class Inutile extends Item{
+
+	public Inutile(String nome) {
+		super(nome);
+	}
+	
+	
+}
