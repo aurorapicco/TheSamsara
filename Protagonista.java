@@ -4,6 +4,7 @@ public class Protagonista extends Personaggio {
     protected Item[] inventario;
     protected Arma spada;
     protected Colpo[] colpi;
+    protected int forza;
     protected int ic; //indice colpi
 
     public Protagonista(String nome, int saluteMax) {
@@ -11,6 +12,7 @@ public class Protagonista extends Personaggio {
         this.inventario = new Item[10]; // Inizializza l'inventario con 10 slot
         this.spada = null;
         this.colpi = null;
+        this.forza = forza;
         this.ic = 0;
     }
 
@@ -58,7 +60,11 @@ public class Protagonista extends Personaggio {
 	public Colpo[] getColpi() {
 		return colpi;
 	}
-
+	
+	public int getForza() {
+        return forza;
+    }
+	
 	public void aggiungiColpo(Colpo c) {
 		this.colpi[ic] = c;
 		this.ic++;
@@ -76,4 +82,12 @@ public class Protagonista extends Personaggio {
         super.cura(quantita);
         System.out.println(getNome() + " ti sei curato di " + quantita + " punti salute!");
     }
+    
+    public void aumentaForza(int valore) {
+      
+        setForza(getForza() + valore);
+        System.out.println(getNome() + " ha aumentato la forza di " + valore + " punti!");
+        
+    }
+    
 }
