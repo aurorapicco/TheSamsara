@@ -29,8 +29,6 @@ Esco dalla casa e incontro un vecchietto.
 "Buongiorno, lei è Lord Swain?"
 Swain: "Sono io, vieni caro, ti insegnerò un trucchetto per sopravvivvere qui."
 /
-//inizio allenamento
-/
 Swain: "Ora sei pronto. Segui il sentiero, ti porterà in città, buon viaggio. Che i Tre ti proteggano!"
 /
 Trovo un deviazione, a sinistra c'è un cartello con disegnato un lago, a destra un altro con disegnato la città.
@@ -74,7 +72,7 @@ Un grosso castello si innalza al centro della capitale.
 Un mercante mi approccia.
 Controllo l'inventario e noto che posseggo trenta monete, anche chiamate cubloni da queste parti.
 /
-Mentre mi avvicino al centro abiatato udisco dei rulli di tamburi e urla di gente.
+Mentre mi avvicino al centro abitato udisco dei rulli di tamburi e urla di gente.
 Si sta tenendo una parata in cui sfilano i cavalieri tornati da una battaglia contro i giganti.
 La battaglia è stata distruttiva e i soldati sono a pezzi.
 A testa della parata c'è il comandante, una ragazza, molto intimidatoria.
@@ -87,7 +85,7 @@ Schivo la gente e la inseguo fino all'entrata.
 "Athena posso parlare con te? Riguarda il mio viaggio, il perché sono qui. Per favore concedimi un minuto"
 Athena: "D'accordo, ma non un secondo di più."
 Le racconto tutta la mia storia, dal portale, al fulmine, ai giganti.
-Athena: "Capisco. Benvenuto a Cubvlar, la terra dove il tempo è in mano ai Tre."
+Athena: "Capisco. Benvenuto a Mirvlar, la terra dove il tempo è in mano ai Tre."
 "Chi sono i Tre?"
 Athena: "Sono la coscienza del nostro mondo, praticamente i nostri dei. I loro nomi sono Boss (B), Alex (A) e Golo (G)."
 "Credo di aver sentito le loro voci parlare qualche volta."
@@ -99,8 +97,6 @@ Athena: "Sono i nostri nemici, sono guidati dal loro re, Emmett il Gigacoso, e i
 "Quindi se vi aiuto a sconfiggerli potrò tornare a casa?"
 Athena: "Sempre che i Tre te lo permettano, ovviamente. Però prima devi allenarti, i giganti sono piuttosto impegnativi. Vieni con me."
 /
-//addestramento con Athena
-/
 Appena finito l'allenamento, la terra inizia a tremare.
 Molta gente urla.
 I giganti sono entrati in città.
@@ -109,8 +105,6 @@ Appena li raggiungiamo noto 5 giganti davanti a noi.
 Athena: "Io mi occupo di quei 3, tu pensa ai restanti 2!"
 "Sissignora!"
 /
-//combattimento
-//
 Athena: "Bravo, te la sei cavata, ma non è finita, guarda laggiù!"
 La terra trema più forte di prima.
 La porta d'ingresso della città viene distrutta dall'entrata di un gigante alto circa 20 metri con una grossa corona in testa.
@@ -122,9 +116,7 @@ Athena: "Ci penso io!"
 Athena infligge 26 danni a Emmett e poi cade a terra per colpa di una ferita allo stomaco.
 "Ora tocca a me!"
 /
-//combattimento contro il boss
-/
-//Ho fallito. Non tornerò mai più a casa.
+Ho fallito. Non tornerò mai più a casa.
 /
 Ce l'ho fatta.
 L'ho sconfitto!
