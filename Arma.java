@@ -1,18 +1,23 @@
-package TheSamsara;
+package theSamsara;
 
-public class Arma {
+public class Arma extends Item{
 	protected int danno;
 	protected boolean equipaggiata;
-	public Arma (int danno, boolean equipaggiata) {
+	
+	public Arma (String nome, int danno, boolean equipaggiata) {
+		super(nome);
 		this.danno = danno;
 		this.equipaggiata = equipaggiata;
 	}
-	protected int getDanno() {
+	public int getDanno() {
 		return danno;
 	}
-	protected boolean estEquipaggiata() {
+	public boolean estEquipaggiata() {
 		return equipaggiata;
 	}
 	
+	public void equipaggia()
+	{
+		this.equipaggiata = true;
+	}
 }
-
