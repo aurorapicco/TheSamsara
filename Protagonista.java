@@ -12,10 +12,10 @@ public class Protagonista extends Personaggio {
         super(nome, saluteMax);
         this.inventario = new Item[10]; // Inizializza l'inventario con 10 slot
         this.spada = null;
-        this.colpi = null;
-        this.forza = forza;
+        this.colpi = new Colpo[2];
+        this.forza = 0;
         this.ic = 0;
-        this.resistenza = resistenza;
+        this.resistenza = 0;
     }
 
     public Item[] getInventario() {
@@ -67,8 +67,16 @@ public class Protagonista extends Personaggio {
         return forza;
     }
 	
+	public void setForza(int f) {
+        this.forza += f;
+    }
+	
 	public int getResistenza() {
 	    return resistenza;
+	}
+	
+	public void setResistenza(int resistenza) {
+	    this.resistenza += resistenza;
 	}
 	
 	public void aggiungiColpo(Colpo c) {
@@ -80,7 +88,7 @@ public class Protagonista extends Personaggio {
         super.subisciDanno(danno);
         System.out.println(getNome() + " ha subito " + danno + " danni!");
         if (!isVivo()) {
-            System.out.println(getNome() + "sei morto!");
+            System.out.println(getNome() + " sei morto!");
         }
     }
 
