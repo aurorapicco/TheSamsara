@@ -69,31 +69,56 @@ public class theSamsara {
 	        p.aumentaResistenza(5);
 	    }
 	    
-	    System.out.println("La tua resistenza attuale è: " + p.getResistenza());
+	    System.out.println("La tua resistenza attuale Ã¨: " + p.getResistenza());
 	
 	}
 	
-	public static void shop()
+	public static void shop(Protagonista p)
 	{
 		int numCubloni = 30;
 		Arma spadaDiFerro = new Arma("Spada di Ferro", 10, false);
 		Cura pozione = new Cura("Pozione Curativa", 10);
 		Item bambolaDiPezza = new Inutile("Bambola di Pezza");
 		Protezione elmetto = new Protezione("Elmetto in Ferro", 5);
+		Item[] prodottiDisponibili = new Item[4];
+		prodottiDisponibili[0] = spadaDiFerro;
+		prodottiDisponibili[1] = pozione;
+		prodottiDisponibili[3] = bambolaDiPezza;
+		prodottiDisponibili[4] = elmetto;
+		
 		
 		while(1>0)
 		{
-			System.out.println("Benvenuto nel mio shop, ecco cosa propongo oggi:");
-			System.out.println("1) " + spadaDiFerro.getNome() + " - 10 cubloni");
-			System.out.println("2) " + pozione.getNome() + " - 3 cubloni");
-			System.out.println("3) " + bambolaDiPezza.getNome() + " - 8 cubloni");
-			System.out.println("4) " + elmetto.getNome() + " - 9 cubloni");
 			
+			System.out.println("Benvenuto nel mio shop, ecco cosa propongo oggi:");
+			if(prodottiDisponibili[0] != null)
+			{
+				System.out.println("1) " + spadaDiFerro.getNome() + " - 10 cubloni");
+				
+			}
+			if(prodottiDisponibili[1] != null)
+			{
+				System.out.println("2) " + pozione.getNome() + " - 3 cubloni");
+			}
+			if(prodottiDisponibili[2] != null)
+			{
+				System.out.println("3) " + bambolaDiPezza.getNome() + " - 8 cubloni");
+			}
+			if(prodottiDisponibili[3] != null)
+			{
+				System.out.println("4) " + elmetto.getNome() + " - 9 cubloni");
+			}
 			System.out.println("\nCubloni disponibili: " + numCubloni + "\nCosa vorresti comprare? (Inserisci il numero)");
 			int ris;
 			do
 			{
 				ris = Leggi.unInt();
+				if(ris >= 0 && ris < 4)
+				{
+					p.aggiungiInventario(prodottiDisponibili[ris]);
+					prodottiDisponibili[ris] = null;
+				}
+					
 			}
 			while(ris < 0 || ris > 4);
 			
@@ -141,7 +166,7 @@ public class theSamsara {
 	        p.aumentaForza(5);
 	    }
 	    
-	    System.out.println("Il tuo livello di forza attuale è: " + p.getForza());
+	    System.out.println("Il tuo livello di forza attuale Ã¨: " + p.getForza());
 	    
 	}
 	
