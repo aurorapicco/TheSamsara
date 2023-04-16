@@ -1,4 +1,4 @@
-package samara;
+package theSamsara;
 
 public class Colpo {
     private String nome;
